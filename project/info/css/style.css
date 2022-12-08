@@ -1,0 +1,45 @@
+.info-box{
+    width: 500px;
+    height: 350px;
+    border: 1px solid black;
+    margin: 200px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 1px solid black;
+}
+.name{
+    margin-left: 25px;
+}
+.fa-regular{
+    margin-top: 20px;
+    margin-right: 25px;
+    text-align: right;
+}
+
+.image{
+    width: 200px;
+    height: 150px;
+    border: 1px solid black;
+    margin: 10px 20px 20px 20px;
+}
+.tag{
+    font-size: 11px;
+    margin-left: 15px;
+    margin-bottom: 0px;
+    background-color: purple;
+    color: white;
+    padding: 2px;
+}
+.icons .fa-brands{
+    font-size: 30px;
+    margin: 10px;
+}
+.info-link{
+    border-top:1px solid black;
+    margin-top: 16px;
+}
+.fullpara{
+    border-top: 1px solid black;
+    padding-top: 10px;
+    margin-bottom: 100px;
+}

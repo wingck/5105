@@ -1,0 +1,113 @@
+body{
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.main-menu{
+    display: flex;
+    list-style-type: none;
+    text-align: right;
+}
+h2 {
+    margin-right: 150px;
+}
+.main-menu .first {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    padding: 5px 5px 0 5px;
+    text-align: right;
+}
+.main-menu .first:nth-child(-n+5){
+    border-right: 1px solid black;
+}
+.main-menu li li{
+    display: block;
+}
+.main-menu ul ul{
+    position: absolute;
+    width: 300px;
+    left: -100000px;
+}
+.main-menu ul li:hover ul{
+    left: 0;
+    text-align: left;
+    margin:0;
+    padding:0;
+}
+a {
+    text-decoration: none;
+}
+.footer-menu{
+    display: grid;
+    grid-template-columns: 4fr 7fr 1fr;
+    height: 20px;
+}
+.footer-menu li{
+    list-style-type: none;
+}
+
+.terms{
+    display: flex;
+    margin-top: 15px;
+    text-align: center;
+}
+.terms li{
+    margin-right: 10px;
+}
+
+.icons{
+    margin-top: 15px;
+}
+.fa-brands{
+    font-size: 20px;
+}
+li .footerlink{
+    border-right: 1px solid black;
+    padding-right: 10px;
+}
+.profile{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 2fr 1fr;
+    grid-template-areas: empty grad1 grad2 grad3 grad4 empty;
+                         empty grad5 grad6 grad7 grad8 empty;
+}
+.info{
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
+    margin: 20px 0;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+h1{
+    margin-left: 140px;
+}
+.intro{
+    margin-left: 140px;
+}
+.image{
+    margin: 22.5px 22.5px 0;
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    margin-bottom: 3px;
+}
+.tag{
+    font-size: 11px;
+    margin-left: 3px;
+    margin-bottom: 0px;
+    background-color: purple;
+    color: white;
+    padding: 2px;
+}
+.description{
+    margin: 5px;
+}
+.readmore{
+    font-size: 14px;
+    width: 100px;
+    margin-left: 5px;
+}
+li a:hover{
+    background-color: rgb(223, 206, 206);
+}
