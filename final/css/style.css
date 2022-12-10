@@ -1,0 +1,160 @@
+.main-menu{
+    display: grid;
+    grid-template-columns: 2fr 1fr 7fr 1fr;
+    padding-top: 24px;
+    position: relative;
+    z-index: 1;
+}
+.image{
+    height: 40px;
+    width: auto;
+    position: right;
+}
+.search{
+    display: flex;
+}
+.btn-search{
+    background-color:white;
+    border:none;
+}
+.fa-search{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+#search-box {
+    margin-top: 7px;
+    display: none;
+    height: 23px;
+    animation: expand 1s normal;
+    border-radius: 5px;
+}
+@keyframes expand{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 139px;
+    }
+}
+.btn-login{
+    background-color: #000033;
+    color: white;
+    margin-right: 50px;
+    border-radius: 5px;
+}
+.banner{
+    max-width: 1440px;
+    height: auto;
+    margin-top: 24px;
+}
+.title{
+    font-size: 40px;
+    text-align: center;
+}
+.title2{
+    font-size: 40px;
+}
+.description{
+    margin: 0 auto;
+    width: 800px;
+    text-align: center;
+}
+.company{
+    max-width: 1000px;
+    height: auto;
+    margin-top: 70px;
+    margin-left: 150px;
+}
+.events{
+    display: grid;
+    grid-template-columns: 1fr 5fr 5fr 1fr;
+}
+.pagination{
+    font-size: 90px;
+    text-align:center;
+    height: 70px;
+}
+p{
+font-size: 16px;
+}
+footer{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 2fr 2fr 2fr 0.5fr;
+    margin-top: 50px;
+    box-shadow: 0 -8px 90px #e0d3d3;
+}
+.icons{
+    display: flex;
+}
+.icons i{
+    font-size: 24px;
+    margin: 0 10px;
+}
+.fa-square-twitter:hover{
+    color: #1DA1F2 ;
+}
+.fa-linkedin:hover{
+    color: #0077B5 ;
+}
+.fa-instagram:hover{
+    color: #C13584;
+}
+.fa-square-facebook:hover{
+    color: #4267B2;
+}
+li{
+    list-style: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    white-space: nowrap;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+.column1{
+    margin-top: 20px;
+}
+.column1 p{
+    margin: 40px 0;
+}
+.nav-menu{
+    display: none;
+    position: absolute;
+    background-color: #000033;
+    width: 25%;
+    z-index: 2;
+    padding-bottom: 20px;
+}
+.submenu{
+    position: relative;
+}
+.nav-menu a{
+    color: white;
+}
+.fa-angle-down{
+    color: white;
+    font-size: 16px;
+}
+h4{
+    color: white;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-top: 20px;
+}
+.humber{
+    width: 200px;
+    height: auto;
+    margin-top: 20px;
+}
+.fa-circle-xmark{
+    color: white;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.navrow1{
+    display: flex;
+    text-align: right;
+}
